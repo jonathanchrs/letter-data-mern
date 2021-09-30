@@ -1,0 +1,15 @@
+GET http://localhost:3000/suratkeluar
+
+###
+POST http://localhost:3000/suratkeluar
+Content-Type: application/json
+
+{
+    "tanggal": "2021-10-01",
+    "nomor": "078/WO9-DLW/2021",
+    "keterangan": "testing2",
+    "kepada": "totesting2"
+}
+
+###
+GET http://localhost:3000/suratkeluar/615547f08b2bd4d8bcf80956
