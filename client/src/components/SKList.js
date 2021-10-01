@@ -22,7 +22,7 @@ const SKList = () => {
     }
 
     return (
-        <div className="container mt-3">
+        <div className="container mt-3 pt-5 ml-2 mr-2">
             <h1 className="title is-1">Surat Keluar</h1>
             {
                 suratKeluar.map((sk, index) => (

@@ -23,33 +23,33 @@ const SKDetailModal = ({ showModal, setShowModal, id }) => {
                     <div className="modal-content">
                         {
                             <div className="box">
-                                <h1 className="has-text-weight-bold is-size-4">{ suratKeluar.nomor }</h1>
+                                <h1 className="has-text-weight-bold is-size-3">{ suratKeluar.nomor }</h1>
                                 <h1>
                                     <div className="tags mt-2">
-                                        <div className="tag is-info">
+                                        <div className="tag is-info is-size-6">
                                             Tanggal
                                         </div>
-                                        <div className="tag is-success">
+                                        <div className="tag has-text-weight-bold is-size-6">
                                             { new Date(suratKeluar.tanggal).toDateString() }    
                                         </div>
                                     </div>
                                 </h1>
                                 <h1>
                                     <div className="tags mt-2">
-                                        <div className="tag is-info">
+                                        <div className="tag is-info is-size-6">
                                             Keterangan
                                         </div>
-                                        <div className="tag is-success">
+                                        <div className="tag has-text-weight-bold is-size-6">
                                             { suratKeluar.keterangan }    
                                         </div>
                                     </div>
                                 </h1>
                                 <h1>
                                     <div className="tags mt-2">
-                                        <div className="tag is-info">
+                                        <div className="tag is-info is-size-6">
                                             Kepada
                                         </div>
-                                        <div className="tag is-success">
+                                        <div className="tag has-text-weight-bold is-size-6">
                                             { suratKeluar.kepada }    
                                         </div>
                                     </div>
