@@ -34,3 +34,14 @@ export const insertSuratKeluar = async (req, res) => {
         });
     }
 }
+
+export const getTotalLetter = async (req, res) => {
+    try {
+        const totalSk = await SuratKeluar.count();
+        res.status(200).json({total: totalSk});
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        });
+    }
+}

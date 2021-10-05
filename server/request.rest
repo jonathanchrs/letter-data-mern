@@ -13,3 +13,6 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3000/suratkeluar/615547f08b2bd4d8bcf80956
+
+###
+GET http://localhost:3000/suratkeluar/total
